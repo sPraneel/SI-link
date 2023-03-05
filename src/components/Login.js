@@ -56,7 +56,7 @@ const Login = () => {
           </Form.Group>
 
           <div className="d-grid gap-2">
-            <Button variant="primary" type="Submit">
+            <Button variant="primary" type="Submit box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23)">
               Log In
             </Button>
           </div>
@@ -64,8 +64,9 @@ const Login = () => {
         <hr />
         <div>
           <GoogleButton
+          style={{ backgroundColor: "#808080", color: "#ffffff" }}
             className="g-btn"
-            type="dark"
+            type="primary"
             onClick={handleGoogleSignIn}
           />
         </div>
